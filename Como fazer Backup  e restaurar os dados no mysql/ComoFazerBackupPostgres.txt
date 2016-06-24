@@ -1,0 +1,13 @@
+backup no postgres
+
+--clique encima da data base escolhida com o botão direito e escolha backup
+-- escolha o caminho de uma pasta e nomeie um arquivo dentro dela ex: pasta/arquivo.backup
+-- mude o format para 'tar' e clique em backup
+
+
+para restaurar
+
+crie uma data base com qualquer nome 
+--clique encima da data base criada com o botão direito e escolha restore
+-- procure a pasta onde esta o arquivo.backup
+-- E clique em restore ... fim

@@ -1,0 +1,16 @@
+                  -- E necessario acessar o cmd como administrador
+
+
+
+
+-- mostrar os dados no cmd 
+-- C:\Program Files\MySQL\MySQL Server 5.6\bin>mysqldump -u root -p condominio
+
+-- para fazer backup usa o sinal de maior >
+#  C:\Program Files\MySQL\MySQL Server 5.6\bin>mysqldump -u root -p condominio > arquivo_dump.sql
+
+--E necessario criar pelo menos o dadabase dentro do mysql antes da restauração
+-- para restaurar usa o sinal de menor <
+#C:\Program Files\MySQL\MySQL Server 5.6\bin>mysqldump -u root -p condominio < arquivo_dump.sql;
+
+#C:\Program Files\MySQL\MySQL Server 5.6\bin>mysqldump -u root --password condominio  < arquivo_dump.sql;
